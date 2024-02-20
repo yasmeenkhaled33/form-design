@@ -1,0 +1,33 @@
+.modal {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 100vw;
+    height: 60vw;  
+    top: 0;
+    left: 0;
+}
+.modal-content {
+    background-color: white;
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    color: green;
+    width: 60%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+label {
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+.maininput {
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-bottom: 10px;
+}
+.disabled {
+    background-color: gray !important;
+}
